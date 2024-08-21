@@ -953,7 +953,7 @@ label {
 .banner-content .title {
     font-size: 20px;
     margin-bottom: 45px;
-    letter-spacing: -2.6px;
+    letter-spacing: 1.6px;
 }
 .banner-content .title span {
     background: linear-gradient(180deg, var(--tg-white) 0%, var(--tg-primary-color) 100%);
