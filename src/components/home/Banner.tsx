@@ -11,7 +11,6 @@ const Banner = () => {
                      <div className="banner-countdown-wrap">
                      <div className="contribution-btn">
                      <Link to="/#" className="btn">Buy on Sunswap</Link>
-                     <Link to="/#" className="btn btn-two">Learn More</Link>
                   </div>
                         
                      </div>

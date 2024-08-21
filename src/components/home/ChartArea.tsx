@@ -78,7 +78,7 @@ const ChartArea = () => {
 
                         <ul className="list-wrap">
                            <li><span>1</span>Total Supply: 1 Billion $CHOW</li>
-                           <li><span>2</span>80% Donated to Justin Sun's Charity Wallet</li>
+                           <li><span>2</span>80% Donated to Justin Sun's Wallet</li>
                            <li><span>3</span>20% for the Community available on SunSwap DEX</li>
                            <li><span>4</span>Zero Fees, Pure Community Driven</li>
 
