@@ -14,7 +14,7 @@ type DocumentItem = {
 };
 
 const doc_data: DocumentItem[] = [
-    { name: "X", iconType: "image", icon: "/assets/img/images/twitt.jpeg" },
+    { name: "X", iconType: "image", icon: "/assets/img/images/twitter.png" },
     { name: "Telegram", iconType: "image", icon: "/assets/img/images/telegram.png" },
     { name: "Coin Market Cap", iconType: "image", icon: "/assets/img/images/coinmarketcap.png" },
     { name: "Coin Gecko", iconType: "image", icon: "/assets/img/images/coingecko.png" }, // Example for image icon
