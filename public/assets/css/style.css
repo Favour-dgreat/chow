@@ -951,7 +951,7 @@ label {
     z-index: 1;
 }
 .banner-content .title {
-    font-size: 65px;
+    font-size: 20px;
     margin-bottom: 45px;
     letter-spacing: -2.6px;
 }
@@ -1140,7 +1140,7 @@ label {
     text-align: center;
 }
 .breadcrumb-content .title {
-    font-size: 60px;
+    font-size: 30px;
     margin-bottom: 25px;
     letter-spacing: -1.8px;
 }

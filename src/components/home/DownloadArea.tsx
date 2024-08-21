@@ -29,7 +29,6 @@ const DownloadArea = () => {
                   </div>
                </div>
                <div className="download-shape-wrap">
-                  <img src="/assets/img/images/4.jpg" alt="" />
                   <img src="/assets/img/images/3.png" alt="" />
                </div>
             </div>
