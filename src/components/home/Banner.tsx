@@ -10,8 +10,8 @@ const Banner = () => {
                      <h2 className="title">Chow Chow is China's oldest and most famous dog breeds, known for its majestic, lion-like appearance and centuries of loyalty.</h2>
                      <div className="banner-countdown-wrap">
                      <div className="contribution-btn">
-                     <Link to="/contact" className="btn">Buy on Sushiswap</Link>
-                     <Link to="/contact" className="btn btn-two">Learn More</Link>
+                     <Link to="/#" className="btn">Buy on Sushiswap</Link>
+                     <Link to="/#" className="btn btn-two">Learn More</Link>
                   </div>
                         
                      </div>

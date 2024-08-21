@@ -10,10 +10,10 @@ const HeaderOffcanvas = ({ offCanvas, setOffCanvas }: any) => {
                   <button onClick={() => setOffCanvas(false)}><i className="far fa-window-close"></i></button>
                </div>
                <div className="logo-side mb-30">
-                  <Link to="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
+                  <Link to="/"><img src="/assets/img/logo/logoss.png" alt="Logo" /></Link>
                </div>
                <div className="side-info mb-30">
-                  <div className="contact-list mb-30">
+                  {/* <div className="contact-list mb-30">
                      <h4>Office Address</h4>
                      <p>123/A, Miranda City Likaoli <br /> Prikano, Dope</p>
                   </div>
@@ -26,13 +26,12 @@ const HeaderOffcanvas = ({ offCanvas, setOffCanvas }: any) => {
                      <h4>Email Address</h4>
                      <p>info@example.com</p>
                      <p>example.mail@hum.com</p>
-                  </div>
+                  </div> */}
                </div>
                <div className="social-icon-right mt-30">
-                  <Link to="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link to="#"><i className="fab fa-telegram"></i></Link>
                   <Link to="#"><i className="fab fa-twitter"></i></Link>
-                  <Link to="#"><i className="fab fa-google-plus-g"></i></Link>
-                  <Link to="#"><i className="fab fa-instagram"></i></Link>
+                 
                </div>
             </div>
             <div onClick={() => setOffCanvas(false)} className={`offcanvas-overly ${offCanvas ? "active" : ""}`}></div>

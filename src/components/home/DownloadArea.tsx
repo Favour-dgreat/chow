@@ -10,7 +10,7 @@ const DownloadArea = () => {
                         <div className="section-title mb-40">
                            <h2 className="title">About Chow Chow</h2>
                            <br/>
-                           <h3>Chow Chow is charity-focused memecoin, using the power of community to support animal welfare and rescue organizations. Every holder contributes to making a difference in the lives of animals</h3>
+                           <h3>Chow Chow is charity-focused memecoin, using the power of community to support animal welfare and rescue organizations. <br></br> <br></br>Every holder contributes to making a difference in the lives of animals</h3>
                         </div>
                         {/* <div className="download-list">
                            <ul className="list-wrap">
