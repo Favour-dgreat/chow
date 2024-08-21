@@ -10,7 +10,7 @@ const Banner = () => {
                      <h4 className="title" style={{fontSize: '35px'}}>Chow Chow is China's oldest and most famous dog breeds, known for its majestic, lion-like appearance and centuries of loyalty.</h4>
                      <div className="banner-countdown-wrap">
                      <div className="contribution-btn">
-                     <Link to="/#" className="btn">Buy on Sushiswap</Link>
+                     <Link to="/#" className="btn">Buy on Sunswap</Link>
                      <Link to="/#" className="btn btn-two">Learn More</Link>
                   </div>
                         

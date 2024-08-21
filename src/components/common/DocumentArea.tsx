@@ -23,7 +23,7 @@ const doc_data: DocumentItem[] = [
 const doc_data1: DocumentItem[] = [
     { name: "Dex tools", iconType: "image", icon: "/assets/img/images/dextoolslogo.png" },
     { name: "Dex Screener", iconType: "image", icon: "/assets/img/images/dexcreener.jpeg"},
-    { name: "Susiswap", iconType: "image", icon: "/assets/img/images/sushiswap.jpeg" },
+    { name: "Sunswap", iconType: "image", icon: "/assets/img/images/sunswap.jpg" },
 ];
 
 const DocumentList = ({ documents }: { documents: DocumentItem[] }) => (
