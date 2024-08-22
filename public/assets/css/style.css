@@ -442,6 +442,7 @@ label {
     line-height: normal;
     letter-spacing: 1.96px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .navbar-wrap > ul > li.active > a,
 .navbar-wrap > ul > li > a.active,
@@ -3146,9 +3147,7 @@ p.form_error {
  .eg-login__input-eye:hover {
 	cursor: pointer;
  }
- .eg-login__input-eye span svg{
-    /* fill: var(--tg-white); */
- }
+
  .eg-login__option p {
 	text-align: center;
 	margin: 10px 0 0;

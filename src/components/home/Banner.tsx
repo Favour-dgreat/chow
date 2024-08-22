@@ -19,7 +19,7 @@ const Banner = () => {
             </div>
          </div>
          <div className="banner-scroll-down">
-               <a href="#contribution" className="section-link">
+               <a href="#about" className="section-link">
                   <span></span>
                   <span></span>
                   <span></span>

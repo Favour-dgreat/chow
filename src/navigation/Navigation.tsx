@@ -8,7 +8,6 @@ import Login from '../pages/Login';
 import Register from '../pages/Register';
 import ScrollToTop from "../components/common/ScrollToTop";
 import { ToastContainer } from "react-toastify";
-import DocumentArea from '../components/common/DocumentArea';
 import Footer from '../layout/footer/Footer';
 import Header from '../layout/headers/Header';
 import DynamicBlogDeatils from '../pages/DynamicBlogDetails';
@@ -31,7 +30,7 @@ const AppNavigation = () => {
           <Route path="/forgot" element={<Forget />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <DocumentArea />
+        {/* <DocumentArea /> */}
         <Footer />
       </Router>
     </>
