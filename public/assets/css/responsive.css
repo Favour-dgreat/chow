@@ -29,7 +29,7 @@
     padding: 20px 0 20px;
 }
 .banner-content .title {
-    font-size: 55px;
+    font-size: 25px;
     margin-bottom: 25px;
 }
 .banner-content p {
@@ -93,7 +93,7 @@
     margin-left: 0;
 }
 .banner-content .title {
-    font-size: 50px;
+    font-size: 20px;
 }
 .banner-shape-wrap img:nth-child(2) {
     right: 1%;
@@ -258,7 +258,7 @@
     display: flex;
 }
 .banner-content .title {
-    font-size: 45px;
+    font-size: 20px;
 }
 .header-action {
     display: none;
@@ -666,6 +666,7 @@
     height: 340px;
 }
 .banner-content .title {
+    margin-top: 30px;
     font-size: 20px;
 }
 .coming-time {
