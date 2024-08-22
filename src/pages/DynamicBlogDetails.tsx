@@ -11,7 +11,7 @@ const DynamicBlogDeatils = () => {
    const blog = blogs.find(blog => Number(blog.id) === Number(id));
    return (
       <Wrapper>
-         <SEO pageTitle={'Blog Deatils Xeco'} />
+         <SEO pageTitle={'Blog Deatils $Chow'} />
          <Breadcrumb title="Blog Details" />
          <BlogDetailsArea blog={blog} />
       </Wrapper>

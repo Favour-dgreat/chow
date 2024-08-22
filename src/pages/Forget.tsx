@@ -5,7 +5,7 @@ import RecetPasswordMain from '../components/reset-password';
 const RecetPassword = () => {
    return (
       <Wrapper>
-         <SEO pageTitle={'Reset PassWord Xeco'} />
+         <SEO pageTitle={'Reset PassWord $Chow'} />
          <RecetPasswordMain />
       </Wrapper>
    );
