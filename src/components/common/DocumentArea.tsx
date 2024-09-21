@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 
@@ -7,30 +6,32 @@ type DocumentItem = {
     name: string;
     iconType: 'fontawesome';
     icon: IconDefinition;
+    url: string; // Add a URL field to each document item
 } | {
     name: string;
     iconType: 'image';
     icon: string;
+    url: string; // Add a URL field to each document item
 };
 
 const doc_data: DocumentItem[] = [
-    { name: "X", iconType: "image", icon: "/assets/img/images/twitter.png" },
-    { name: "Telegram", iconType: "image", icon: "/assets/img/images/telegram.png" },
-    { name: "Coin Market Cap", iconType: "image", icon: "/assets/img/images/coinmarketcap.png" },
-    { name: "Coin Gecko", iconType: "image", icon: "/assets/img/images/coingecko.png" }, // Example for image icon
+    { name: "X", iconType: "image", icon: "/assets/img/images/twitter.png", url: "https://x.com/chowchowcn" },
+    { name: "Telegram", iconType: "image", icon: "/assets/img/images/telegram.png", url: "https://t.me/chowchoweth" },
+    { name: "Coin Market Cap", iconType: "image", icon: "/assets/img/images/coinmarketcap.png", url: "#" },
+    { name: "Coin Gecko", iconType: "image", icon: "/assets/img/images/coingecko.png", url: "#" }, // Example for image icon
 ];
 
 const doc_data1: DocumentItem[] = [
-    { name: "Dex tools", iconType: "image", icon: "/assets/img/images/dextoolslogo.png" },
-    { name: "Dex Screener", iconType: "image", icon: "/assets/img/images/dexcreener.jpeg"},
-    { name: "Sunswap", iconType: "image", icon: "/assets/img/images/sunswap.jpg" },
+    { name: "Dex tools", iconType: "image", icon: "/assets/img/images/dextoolslogo.png", url: "#" },
+    { name: "Dex Screener", iconType: "image", icon: "/assets/img/images/dexcreener.jpeg", url: "#" },
+    { name: "Uniswap", iconType: "image", icon: "/assets/img/images/uniswap.jpeg", url: "#" },
 ];
 
 const DocumentList = ({ documents }: { documents: DocumentItem[] }) => (
     <ul className="list-wrap">
         {documents.map((doc, i) => (
             <li key={i}>
-                <Link to="#">
+                <a href={doc.url} target="_blank" rel="noopener noreferrer"> {/* Use an anchor tag with the URL */}
                     <span className="icon">
                         {doc.iconType === "fontawesome" ? (
                             <FontAwesomeIcon icon={doc.icon} />
@@ -39,7 +40,7 @@ const DocumentList = ({ documents }: { documents: DocumentItem[] }) => (
                         )}
                     </span>
                     {doc.name}
-                </Link>
+                </a>
             </li>
         ))}
     </ul>
@@ -58,7 +59,6 @@ const DocumentArea = () => {
                                 
                                 {/* Render the second document list */}
                                 <DocumentList documents={doc_data1} />
-
                             </div>
                         </div>
                     </div>

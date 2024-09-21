@@ -8,17 +8,16 @@ const Banner = () => {
                <div className="col-lg-10">
                   <div className="banner-content text-center">
                   <div className="download-shape-wrap">
-                  <img src="/assets/img/images/tt.png" alt="" className="leftToRight" style={{ width: '200px', height: '200px' }}/>
-                  <img src="/assets/img/images/tt.png" alt="" className="leftToRight" style={{ width: '200px', height: '200px' }} />
-                  <img src="/assets/img/images/tt.png" alt="" className="alltuchtopdown" style={{ width: '200px', height: '200px' }} />
-                  <img src="/assets/img/images/tt.png" alt="" className="leftToRight" style={{ width: '200px', height: '200px' }}/>
+                  
                   {/* <img src="/assets/img/images/tt.png" alt="" className="leftToRight" style={{ width: '200px', height: '200px' }}/> */}
 
                </div>
                      <h4 className="title" style={{fontSize: '32px', marginTop: '30px'}}>Chow Chow is China's oldest and most famous dog breeds, known for its majestic, lion-like appearance and centuries of loyalty.</h4>
+                     <img src="/assets/img/images/et.png" alt="" className="alltuchtopdown" style={{ width: '100px', height: '100px' }} />
+
                      <div className="banner-countdown-wrap">
                      <div className="contribution-btn">
-                     <Link to="/#" className="btn">Buy on Sunswap</Link>
+                     <Link to="/#" className="btn">Buy on Uniswap</Link>
                   </div>
                         
                      </div>
